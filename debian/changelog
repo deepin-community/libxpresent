@@ -1,0 +1,22 @@
+libxpresent (1.0.0-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:47:04 +0800
+
+libxpresent (1.0.0-2) unstable; urgency=medium
+
+  [ Andreas Boll ]
+  * Fix Vcs-* fields.
+  * Add upstream url.
+
+  [ Julien Cristau ]
+  * Add myself to Uploaders to get past NEW.
+
+ -- Julien Cristau <jcristau@debian.org>  Sat, 05 Sep 2015 12:31:48 +0200
+
+libxpresent (1.0.0-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 26 Apr 2015 18:06:33 +0200

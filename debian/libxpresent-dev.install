@@ -1,0 +1,5 @@
+usr/include
+usr/lib/*/libXpresent.so
+usr/lib/*/libXpresent.a
+usr/lib/*/pkgconfig
+usr/share/man
