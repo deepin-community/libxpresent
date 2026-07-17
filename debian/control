@@ -4,24 +4,19 @@ Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: Julien Cristau <jcristau@debian.org>
 Build-Depends:
- debhelper (>= 9),
- dh-autoreconf,
+ debhelper-compat (= 13),
  quilt,
- pkg-config,
- automake,
- libtool,
+ pkgconf,
  xutils-dev,
- x11proto-present-dev,
- x11proto-core-dev,
- x11proto-xext-dev,
+ x11proto-dev,
  libx11-dev,
  libxext-dev,
  libxfixes-dev,
  libxrandr-dev,
-Standards-Version: 3.9.6
-Vcs-Git: https://anonscm.debian.org/git/pkg-xorg/lib/libxpresent.git
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-xorg/lib/libxpresent.git
-Homepage: http://cgit.freedesktop.org/xorg/lib/libXpresent/
+Standards-Version: 4.7.0
+Vcs-Git: https://salsa.debian.org/xorg-team/lib/libxpresent.git
+Vcs-Browser: https://salsa.debian.org/xorg-team/lib/libxpresent
+Homepage: http://gitlab.freedesktop.org/xorg/lib/libXpresent/
 
 Package: libxpresent1
 Architecture: any
