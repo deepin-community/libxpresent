@@ -1,8 +1,15 @@
-libxpresent (1.0.0-deepin1) unstable; urgency=medium
+libxpresent (1.0.1-1) unstable; urgency=medium
 
-  * Rebuild
+  * control: Migrate to x11proto-dev.
+  * New upstream release. (Closes: #1068507)
+  * Update signing-key.asc.
+  * Drop upstreamed patch.
+  * control, rules: Migrate to debhelper-compat 13.
+  * control: Bump policy to 4.7.0.
+  * Update vcs urls.
+  * control: Migrate to pkgconf.
 
- -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:47:04 +0800
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 11 Apr 2024 11:41:57 +0300
 
 libxpresent (1.0.0-2) unstable; urgency=medium
 

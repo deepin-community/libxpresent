@@ -1,14 +1,14 @@
 #!/usr/bin/make -f
 
 build:
-	dh build --with quilt,autoreconf --parallel --builddirectory=build/
+	dh build --with quilt --builddirectory=build/
 
 %:
-	dh $@ --with quilt,autoreconf --parallel --builddirectory=build/
+	dh $@ --with quilt --builddirectory=build/
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
 		--disable-silent-rules
 
-override_dh_install:
-	dh_install --fail-missing -X.la
+override_dh_missing:
+	dh_missing --fail-missing -X.la
